@@ -11,11 +11,11 @@ export default function App() {
   return (
     <NavigationContainer theme={DefaultTheme}>
       <Stack.Navigator initialRouteName="Login">
-        <Stack.Screen
+        {/* <Stack.Screen
           name="Login"
           component={Login}
           options={{ headerShown: false }}
-        />
+        /> */}
         <Stack.Screen name="Home" component={Home} />
         <Stack.Screen name="Details" component={Details} />
       </Stack.Navigator>

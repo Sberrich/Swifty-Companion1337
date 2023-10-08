@@ -36,7 +36,7 @@ const Login = ({ navigation }) => {
   return (
     <View style={styles.container}>
       <ImageBackground
-        source={require("../assets/42.jpeg")}
+        source={require("../assets/splash1.png")}
         resizeMode="cover"
         style={styles.image}
       >
@@ -57,15 +57,14 @@ const Login = ({ navigation }) => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    alignItems: "center",
-    justifyContent: "center",
-    display: "flex",
+ 
   },
   image: {
     width: "100%",
     height: "100%",
     justifyContent: "center",
     alignItems: "center",
+    
   },
   logo: {
     width: 150,
@@ -76,11 +75,12 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
     display: "flex",
+    width:200 ,
     paddingVertical: 15,
     paddingHorizontal: 50,
     borderRadius: 5,
     elevation: 3,
-    backgroundColor: "black",
+    backgroundColor: "#00babc",
   },
   text: {
     fontSize: 16,
